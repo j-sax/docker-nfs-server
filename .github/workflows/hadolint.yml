@@ -8,11 +8,11 @@
 
 name: Hadolint
 
-on:
-  push:
-  pull_request:
-  schedule:
-    - cron: '43 23 * * 5'
+on: workflow_dispatch
+#  push:
+#  pull_request:
+#  schedule:
+#    - cron: '43 23 * * 5'
 
 permissions:
   contents: read
