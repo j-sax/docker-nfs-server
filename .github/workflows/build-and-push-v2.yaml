@@ -16,8 +16,8 @@ env:
   # github.repository as <account>/<repo>
   IMAGE_NAME: nfs-server
   IMAGES: |
-    docker.io/obebete/nfs-server
-    ghcr.io/obeone/nfs-server
+    docker.io/dockersax/nfs-server
+    ghcr.io/j-sax/nfs-server
 
 jobs:
   Build:
